@@ -14,7 +14,7 @@ of them are given below.
 1. Install `docker` on Linux, this depends on the Linux flavor you're working with, for the sake
 of simplicity I'll assume we're using Ubuntu, these are the [instructions](https://docs.docker.com/engine/install/ubuntu/).
 Since this is a manual installation you should probably create a group to run `docker` and add your current user to that group, please,
-follow the [post-install instructions](https://docs.docker.com/engine/install/linux-postinstall/) carefully in order run `docker`.
+follow the [post-install instructions][https://docs.docker.com/engine/install/linux-postinstall/] carefully in order run `docker`.
 ```
 # In case you're lazy or in a hurry these are the commands you need to run
 
@@ -31,14 +31,14 @@ $ sudo systemctl enable docker.service
 $ sudo systemctl enable containerd.service
 ```
 
-2. Install [`docker-compose`](https://docs.docker.com/compose/install/)
+2. Install [`docker-compose`][https://docs.docker.com/compose/install/]
 ```
 # Prefer copying this line from the official docs because it may be different
 $ sudo curl -L "https://github.com/docker/compose/releases/download/1.29.1/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
 ```
 
 ### Java
-1. Install [SDKMan](https://sdkman.io/) with the following command:
+1. Install [SDKMan][https://sdkman.io/] with the following command:
 ```
 $ curl -s "https://sdkman.io" | bash
 ```
@@ -53,8 +53,8 @@ $ sdk install gradle 6.3
 ```
 
 ### Python
-1. Install dependencies for [`pyenv`](https://github.com/pyenv/pyenv/wiki#suggested-build-environment)
-2. To avoid manually installing things we can [use](https://github.com/pyenv/pyenv-installer)
+1. Install dependencies for [`pyenv`][https://github.com/pyenv/pyenv/wiki#suggested-build-environment]
+2. To avoid manually installing things we can [use][https://github.com/pyenv/pyenv-installer]
 
 ### Node.js
-We manager our Node.js version with [nvm](https://github.com/nvm-sh/nvm). Running the command in the Installation section should be enough to install and configure `nvm`.
+We manager our Node.js version with [nvm][https://github.com/nvm-sh/nvm]. Running the command in the Installation section should be enough to install and configure `nvm`.
